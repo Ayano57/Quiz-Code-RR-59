@@ -1,0 +1,10 @@
+
+1. 
+  a.  Install JavaFX (An open source, next generation client application platform for desktop, mobile and embedded systems built on Java)
+  b.  Set System Path Variable to lib folder of your fx installation location e.g 
+set PATH_TO_FX="C:\Program Files\Java\openjfx-20.0.1_windows-x64_bin-sdk\javafx-sdk-20.0.1\lib"
+
+2. Compile Main with following command: javac --module-path "C:\Program Files\Java\openjfx-20.0.1_windows-x64_bin-sdk\javafx-sdk-20.0.1\lib" --add-modules javafx.controls Main.java
+
+3. Run with following Command: java --module-path "C:\Program Files\Java\openjfx-20.0.1_windows-x64_bin-sdk\javafx-sdk-20.0.1\lib" --add-modules javafx.controls Main.java
+ 
